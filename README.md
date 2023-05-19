@@ -7,9 +7,9 @@ git clone https://github.com/AthulMv/helm_chartmuseum.git
 And use this command to install
 
 ```
-helm install museum-chart chartmuseum/ --values chartmuseum/values.yaml
+helm install museum ./helm_chartmuseum -f helm_chartmuseum/values.yaml
 ```
 We see in here,
 ```
-helm list
+helm ls
 ```
