@@ -9,7 +9,7 @@ And use this command to install
 ```
 helm install museum ./helm_chartmuseum -f helm_chartmuseum/values.yaml
 ```
-We see in here,
+We see in here, 
 ```
 helm ls
 ```
